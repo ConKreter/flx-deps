@@ -8,7 +8,8 @@ class AppConan(ConanFile):
         "gtest/1.8.0@bincrafters/stable", \
         "cryptopp/5.6.5@bincrafters/stable", \
         "Poco/1.8.1@pocoproject/stable", \
-        "sqlpp11-connector-postgresql/0.2@vkrapivin/testing"
+        "sqlpp11-connector-postgresql/0.2@vkrapivin/testing", \
+        "aws-sdk-cpp/1.4.17@smela/testing"
     default_options = "OpenSSL:shared=False", \
         "boost:shared=False", \
         "cpprestsdk:shared=False", \
@@ -34,5 +35,8 @@ class AppConan(ConanFile):
         "Poco:enable_pocodoc=False", \
         "Poco:enable_pagecompiler=False", \
         "Poco:enable_pagecompiler_file2page=False", \
-        "cpprestsdk:shared=False"
+        "cpprestsdk:shared=False", \
+        "aws-sdk-cpp:shared=False", \
+        "aws-sdk-cpp:build_s3=True"
     generators = "cmake"
+
