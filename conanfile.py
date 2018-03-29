@@ -9,7 +9,7 @@ class AppConan(ConanFile):
         "cryptopp/5.6.5@bincrafters/stable", \
         "Poco/1.8.1@pocoproject/stable", \
         "sqlpp11-connector-postgresql/0.2@vkrapivin/testing", \
-        "aws-sdk-cpp/1.4.17@smela/testing"
+        "aws-sdk-cpp/1.4.23@smela/testing"
     default_options = "OpenSSL:shared=False", \
         "boost:shared=False", \
         "cpprestsdk:shared=False", \
