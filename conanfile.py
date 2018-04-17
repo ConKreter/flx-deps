@@ -4,7 +4,7 @@ class AppConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     requires = "OpenSSL/1.0.2m@conan/stable", \
         "boost/1.66.0@conan/stable", \
-        "cpprestsdk/2.9.1@bincrafters/stable", \
+        "cpprestsdk/2.10.1@bincrafters/stable", \
         "gtest/1.8.0@bincrafters/stable", \
         "cryptopp/5.6.5@bincrafters/stable", \
         "Poco/1.8.1@pocoproject/stable", \
