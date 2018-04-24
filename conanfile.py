@@ -10,7 +10,8 @@ class AppConan(ConanFile):
         "Poco/1.8.1@pocoproject/stable", \
         "sqlpp11-connector-postgresql/0.2@vkrapivin/testing", \
         "aws-sdk-cpp/1.4.23@smela/testing", \
-        "stb/20180214@conan/stable"
+        "stb/20180214@conan/stable", \
+        "libharu/[>=2.3.0]@joakimono/stable"
     default_options = "OpenSSL:shared=False", \
         "boost:shared=False", \
         "cpprestsdk:shared=False", \
@@ -38,6 +39,7 @@ class AppConan(ConanFile):
         "Poco:enable_pagecompiler_file2page=False", \
         "cpprestsdk:shared=False", \
         "aws-sdk-cpp:shared=False", \
-        "aws-sdk-cpp:build_s3=True"
+        "aws-sdk-cpp:build_s3=True", \
+        "libharu:shared=False"
     generators = "cmake"
 
