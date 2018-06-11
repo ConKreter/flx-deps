@@ -11,6 +11,7 @@ class AppConan(ConanFile):
         "sqlpp11-connector-postgresql/0.2@vkrapivin/testing", \
         "aws-sdk-cpp/1.4.23@smela/testing", \
         "stb/20180214@conan/stable", \
+        "jsonformoderncpp/3.1.2@vthiery/stable", \
         "libharu/[>=2.3.0]@joakimono/stable"
     default_options = "OpenSSL:shared=False", \
         "boost:shared=False", \
