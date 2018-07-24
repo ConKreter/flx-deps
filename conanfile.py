@@ -5,6 +5,7 @@ class AppConan(ConanFile):
     requires = "OpenSSL/1.0.2m@conan/stable", \
         "boost/1.66.0@conan/stable", \
         "cpprestsdk/2.10.1@bincrafters/stable", \
+        "fmt/5.1.0@bincrafters/stable", \
         "gtest/1.8.0@bincrafters/stable", \
         "cryptopp/5.6.5@bincrafters/stable", \
         "Poco/1.8.1@pocoproject/stable", \
